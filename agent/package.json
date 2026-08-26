@@ -1,0 +1,21 @@
+{
+  "name": "sui-agent-pay-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "run-once": "tsx src/index.ts --once"
+  },
+  "dependencies": {
+    "@mysten/sui": "^1.14.0",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "@types/node": "^20.14.0",
+    "@types/node-cron": "^3.0.11"
+  }
+}
